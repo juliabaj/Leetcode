@@ -12,7 +12,7 @@ public:
             //iterating from number next to i to size -1
             for(int j=i+1; j < size; j++)
             {
-                #checking if sum of two numbers is equal to target, if it is then add them to vector
+                //checking if sum of two numbers is equal to target, if it is then add them to vector
                 if(nums[i] + nums[j] == target)
                 {
                     sum.push_back(i);
