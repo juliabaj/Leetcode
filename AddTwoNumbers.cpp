@@ -13,3 +13,11 @@ public:
                 carry = val/10;      
                 val = val % 10;       
                 curr->next = new ListNode(val);
+                curr = curr->next;
+                l1 = (l1) ? l1->next :0;
+                l2 = (l2) ? l2->next :0;
+                }
+                return dummy->next;
+
+    }
+};
