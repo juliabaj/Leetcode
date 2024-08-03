@@ -1,9 +1,8 @@
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target)
-    {
-        //creating a vector that contains indexes of two target numbers
-        vector <int> sum;
+    {                                                                 
+        vector <int> sum;                    //creating a vector that contains indexes of two target numbers
         //vector's size
         int size = nums.size();
         //iteration from 0 to size - 2
