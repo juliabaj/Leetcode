@@ -7,8 +7,7 @@ public:
         int size = nums.size();
         for(int i = 0; i < size-1; i++)      //iteration from 0 to size - 2
         {
-            //iterating from number next to i to size -1
-            for(int j=i+1; j < size; j++)
+            for(int j=i+1; j < size; j++)    //iterating from number next to i to size -1
             {
                 //checking if sum of two numbers is equal to target, if it is then add them to vector
                 if(nums[i] + nums[j] == target)
