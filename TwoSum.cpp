@@ -9,8 +9,7 @@ public:
         {
             for(int j=i+1; j < size; j++)    //iterating from number next to i to size -1
             {
-                //checking if sum of two numbers is equal to target, if it is then add them to vector
-                if(nums[i] + nums[j] == target)
+                if(nums[i] + nums[j] == target)    //checking if sum of two numbers is equal to target, if it is then add them to vector
                 {
                     sum.push_back(i);
                     sum.push_back(j);
