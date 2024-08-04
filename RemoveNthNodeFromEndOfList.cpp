@@ -6,7 +6,7 @@ public:
         ListNode *dummy = new ListNode(0);
         dummy->next = head;
 
-        ListNode *left = dummy;   // dummy
+        ListNode *left = dummy;   //Left pointer is set to dummy
         ListNode *right= head;
 
         while(n>0 && right)
