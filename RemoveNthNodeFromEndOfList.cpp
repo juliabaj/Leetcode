@@ -11,7 +11,7 @@ public:
 
         while(n>0 && right)
         {
-            right = right -> next;   //przesuwamy right o n pozycji
+            right = right -> next;   //Moving the right pointer for nth positions
             n = n-1;
         }
         while(right)
