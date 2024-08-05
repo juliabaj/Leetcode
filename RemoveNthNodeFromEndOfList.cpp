@@ -4,7 +4,7 @@ class Solution {
 public:
     ListNode* removeNthFromEnd(ListNode* head, int n) {
         ListNode *dummy = new ListNode(0);
-        dummy->next = head;
+        dummy->next = head;       //Setting up a dummy node in case of errors such as deleting a first node
 
         ListNode *left = dummy;   //Left pointer is set to dummy
         ListNode *right= head;
