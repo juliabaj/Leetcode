@@ -12,11 +12,11 @@ public:
             {
                 right = mid - 1;
             }
-            else if (mid*mid < x)
+            else if (mid*mid < x)                            //If mid^2 is smaller than x, that we have to change left border to bigger one and update result
             {
                 left = mid + 1;
                 result = mid;
-            }else{
+            }else{                                           //If mid^2 is equal to x then we return mid as a result
                 return mid;
             }
         }
