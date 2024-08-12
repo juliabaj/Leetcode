@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool hasCycle(ListNode *head) {
-        if(head == NULL)
+        if(head == NULL)                //if head node of the list doesn't exist - there is no list
         {
             return false;
         }
