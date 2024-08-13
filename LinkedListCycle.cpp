@@ -6,8 +6,8 @@ public:
             return false;
         }
 
-        ListNode *fast = head;
-        ListNode *slow = head;
+        ListNode *fast = head;          //Initializing both fast and slow pointers at the head node of the list
+        ListNode *slow = head;          //Slow pointer will move one node at the time, while fast pointer will move two nodes ahead
 
         while(fast != NULL && fast->next != NULL && slow != NULL )
         {
