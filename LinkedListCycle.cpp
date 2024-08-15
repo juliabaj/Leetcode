@@ -11,8 +11,8 @@ public:
 
         while(fast != NULL && fast->next != NULL && slow != NULL )    //Iterating through the list and checking if any of the nodes are empty
         {
-            fast = fast -> next -> next;
-            slow = slow -> next;
+            fast = fast -> next -> next;                              //moving fast pointer two nodes at a time
+            slow = slow -> next;                                      //moving slow pointer one at a time
 
             if( fast == slow)
             {
