@@ -16,7 +16,7 @@ public:
 
             if( fast == slow)
             {
-                return true;
+                return true;                                          //if slow pointer matches to fast pointer it means they matched on a node that starts a cycle
             }  
         }
         return false;
