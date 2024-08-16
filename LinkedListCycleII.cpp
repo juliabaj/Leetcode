@@ -6,9 +6,9 @@ public:
         ListNode *slow = head;            //Initializing slow pointer that moves 1 node at a time
         bool cycleFound = false;
 
-        while( fast != NULL && fast->next != NULL && slow != NULL)
+        while( fast != NULL && fast->next != NULL && slow != NULL)        //Checking if all nrequired nodes exist
         {
-            fast = fast -> next -> next;
+            fast = fast -> next -> next;        //Moving pointers
             slow = slow -> next;
             if( slow == fast)
             {
