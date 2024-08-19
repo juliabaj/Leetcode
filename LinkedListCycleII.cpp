@@ -20,7 +20,7 @@ public:
             return NULL;
         
         fast = head;                            //If the cycle still isn't found then set the head node for where the fast pointer is 
-        while( slow != fast)
+        while( slow != fast)                    //Moving pointers as long as slow is not equal to fast and the cycle isn't found
         {
             slow = slow -> next;
             fast = fast -> next;
