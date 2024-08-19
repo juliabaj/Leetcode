@@ -16,10 +16,10 @@ public:
                 break;
             }
         }
-        if (!cycleFound) 
+        if (!cycleFound)     
             return NULL;
         
-        fast = head;
+        fast = head;                            //If the cycle still isn't found then set the head node for where the fast pointer is 
         while( slow != fast)
         {
             slow = slow -> next;
