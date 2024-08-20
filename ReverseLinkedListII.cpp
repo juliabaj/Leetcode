@@ -10,7 +10,7 @@ public:
         ListNode* curr = head;
         ListNode* leftPrev = dummy;
         //ListNode* next = NULL;
-for(int i=1; i< left; i++)         //znalezienie left
+for(int i=1; i< left; i++)         //searching for left pointer
         {
             leftPrev = curr;
             curr = curr -> next;
