@@ -8,15 +8,14 @@ public:
         ListNode* dummy = new ListNode(0);
         dummy -> next = head;
         ListNode* curr = head;
-        ListNode* leftPrev = dummy;
+        ListNode* leftPrev = dummy;    //leftprev - node before left
         //ListNode* next = NULL;
 for(int i=1; i< left; i++)         //searching for left pointer
         {
             leftPrev = curr;
-            curr = curr -> next;
+            curr = curr -> next;     //now current = left
         }
-        // now cur = left
-        // leftprev = node before left
+        
 
         ListNode* prev = NULL;
         for(int i=1; i <= right - left + 1; i++)   //reverse from l to r
