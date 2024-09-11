@@ -7,7 +7,7 @@ public:
         ListNode *prev = dummy;                   //Setting previous pointer to dummy node
         while(curr)
                 {
-                    ListNode *nxt = curr -> next;
+                    ListNode *nxt = curr -> next;        //Creating a pointer "next" that points to the node next to current
         
                     if(curr->val == val)
                     {
