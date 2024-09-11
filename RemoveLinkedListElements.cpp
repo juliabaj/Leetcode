@@ -14,7 +14,7 @@ public:
                         prev -> next = nxt;  
                     }
                     else 
-                        prev = curr;
+                        prev = curr;                     //If it is not found, move to the next node
                         curr = nxt;
                 }
                 return dummy -> next;
