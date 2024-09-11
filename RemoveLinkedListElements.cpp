@@ -9,7 +9,7 @@ public:
                 {
                     ListNode *nxt = curr -> next;        //Creating a pointer "next" that points to the node next to current
         
-                    if(curr->val == val)
+                    if(curr->val == val)                  //If the node meant to be removed is found - node next to previous is now set to next not current
                     {
                         prev -> next = nxt;  
                     }
