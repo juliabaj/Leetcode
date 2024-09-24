@@ -12,7 +12,7 @@ public:
                 list1 = list1->next;
             }
             else{
-            head ->next = list2;
+            head ->next = list2;                   // else, the next element is from list2
             list2 = list2->next; 
             }
             head = head ->next;
